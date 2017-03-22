@@ -1,0 +1,64 @@
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}  
+
+.navbar .navbar-brand.logo{
+    color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-size: 2em;
+    display: inline-flex;
+}
+.navbar .navbar-brand.logo img{
+  height: 45px;
+  margin-top: -12px;
+  border-radius: 100%;
+}
+.navbar .navbar-nav li a{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color: #fed136 !important;
+  background-color: #29292c !important;
+}
+.navbar-nav li.active a {
+    color: #fed136 !important;
+    background-color: #29292c !important;
+}
+
+.page-footer{
+  padding: 0 32px;
+  height: 56px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+}
+.page-footer .whatsapp-share{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+}
