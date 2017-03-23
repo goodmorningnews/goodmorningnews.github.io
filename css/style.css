@@ -67,11 +67,9 @@ footer a:hover {
   max-height: 90px;
   overflow: hidden;
 }
-#addSubscribe{}
 #addSubscribe .modal-dialog{
-      margin-top: 20%;
+    margin-top: 20%;
 }
-.subscribePopup{}
 .subscribePopup p{
   font-size: 16px;
   margin: 20px;
@@ -84,4 +82,41 @@ footer a:hover {
   font-size: 20px;
   padding: 5px 40px;
   margin: 10px auto;
+}
+.lang{
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  float: right;
+}
+.lang a{
+  display: inline-block;
+  color: #ddd;
+  padding: 6px 10px;
+  width: 85px;
+  text-decoration: none;
+  text-align: center;
+}
+.lang .active{
+  background-color: #f9312e;
+  border-radius: 20px;
+  color: #fff;
+}
+.menu-box{
+  margin-top: 55px;
+}
+.menu-box img{
+  width: 100%;
+  margin: 5px auto;
+}
+.menu-box h3{
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin-top: -54px;
+  padding: 15px 10px;
+  font-size: 18px;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
 }
