@@ -17,6 +17,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script type="text/javascript" src="http://malsup.github.com/chili-1.7.pack.js"></script>
+  <script type="text/javascript" src="http://malsup.github.com/jquery.media.js"></script>
+  <script type="text/javascript" src="js/jquery.metadata.js"></script>
+  <script type="text/javascript">
+      $(function() {
+          var wHeight = $(window).height() -40
+          var wWidth = $(window).width()
+          $('a.media').media({width:wWidth, height:wHeight});
+      });
+  </script>
 </head>
 <body>
 <script>
@@ -68,7 +78,9 @@
   <div class="">
     <div class="newsBody" style=" padding: 0; margin-top: 50px;">
 
-      <iframe src="https://drive.google.com/file/d/0B3Jl6vVk_vJBNkJScWpfeWJWYTg/preview" width="100%" height="480"></iframe>
+      <!-- <iframe src="https://drive.google.com/file/d/0B3Jl6vVk_vJBNkJScWpfeWJWYTg/preview" width="100%" height="480"></iframe> -->
+      <a class="media" href="news/hindiNews.pdf"></a>
+      <a id="mike" class="media {type: 'html'}" href="../"></a>
 
       <div class="adsBox">
         <div class="add-div">
