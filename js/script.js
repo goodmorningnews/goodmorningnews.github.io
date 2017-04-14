@@ -1,7 +1,7 @@
 setTimeout(function(){
 	var height = $(window).height() -40
 	$(".newsBody iframe").css("height", height)
-},100)
+},200)
 
 // setTimeout(function(){
 // 	$(".adsBox .add-div").remove()
