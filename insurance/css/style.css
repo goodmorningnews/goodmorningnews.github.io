@@ -1,0 +1,199 @@
+body{
+	font-family: 'Abel', sans-serif;
+}
+.navbar-nav li a{
+	color: #D0DAE4;
+	font-size: 17px;
+}
+.navbar-nav li a:hover{
+	background-color: transparent;
+}
+.navbar-nav li a span.underline{
+	border-top: 1px solid #D0DAE4;
+	display: block;
+	margin-top: 9px;
+	opacity: 0;
+}
+.navbar-nav li a:hover span.underline{
+	transition: all 0.5s;
+	opacity: 1;
+	margin-top: 4px;
+}
+.bannar{
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.bg-color{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+.bannar h1{
+	color: #eaeaea;
+    font-family: 'Coda', cursive;
+	font-size: 50px;
+}
+.bannar p{
+	color: #D0DAE4;
+	font-size: 20px;
+}
+.tittle{
+	padding: 75px 0 75px 25px;
+}
+.tittle button{
+	border: 2px solid #da459e;
+	padding: 9px 41px;
+	font-size: 18px;
+	border-radius: 35px;
+	color: #fff;
+	background-color: #da459e;
+    margin: 50px 0 75px 0px;
+}
+.tittle button:hover{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #da459e;
+	border-radius: 35px;
+	transition: all 0.7s;
+}
+.icon{
+    width: 140px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+        margin-top: -167px;
+}
+.icon i{
+	width: 25px;
+	text-align: center;
+    float: left;
+    padding: 6px 0;
+}
+.icon a{
+    display: inline-block;
+    color: white;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 25px;
+    text-align: center;
+    border: 2px solid white;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+}
+.icon a:hover{
+	width: 100px;
+	text-decoration: none;
+}
+.icon span{
+    visibility: hidden;
+}
+.icon a:hover span{
+    visibility: visible;
+}
+.welcome{
+	margin: 90px 0;
+}
+.welcome h2{
+	font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 50px;
+    color: #61b6c4;
+}
+.welcome span{
+	border: 1px solid #000;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.welcome p{
+	text-align: center;
+	font-size: 22px;
+	color: #505050;
+}
+.s-bg-color{
+	background-color: rgba(100, 100, 100, 0.62);
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+.services{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(100, 100, 100, 0.62);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 75px 0;
+}
+.services h1{
+    font-family: 'Coda', cursive;
+    font-weight: bold;
+    color: #61b6c4;
+    margin-top: 15px;
+}
+.services p{
+	font-size: 20px;
+}
+.services span{
+	font-family: 'Coda', cursive;
+    font-weight: bold;
+    font-size: 21px;
+}
+.services .col{
+
+}
+.col{
+	background-color: rgba(255, 255, 255, 0.75);
+    padding: 50px;
+    transition: all .2s ease-out;
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.col:hover{
+	box-shadow: 0px 0px 10px 1px #333;
+	transform: scale(1);
+}
+.col underline{
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    width: 100%;
+    margin: 9px 0;
+}
+.col img{
+	width: 40px;
+}
+.col div p{
+	font-family: 'Coda', cursive;
+    font-weight: bold;
+    font-size: 17px;
+}
+.col div span{
+	color: #a4a4a4;
+	font-family: 'Coda', cursive;
+    font-weight: bold;
+    font-size: 17px;
+}
+.s-button{
+	text-align: center;
+}
+.services button{
+	border: 2px solid #da459e;
+	padding: 9px 41px;
+	font-size: 18px;
+	border-radius: 35px;
+	color: #fff;
+	background-color: #da459e;
+	margin-top: 65px;
+}
+.services button:hover{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #da459e;
+	border-radius: 35px;
+	transition: all 0.7s;
+}
+
