@@ -8,6 +8,9 @@ body{
 .navbar-nav li a:hover{
 	background-color: transparent;
 }
+.navbar-nav li a:focus{
+	background-color: transparent;
+}
 .navbar-nav li a span.underline{
 	border-top: 1px solid #D0DAE4;
 	display: block;
@@ -23,7 +26,7 @@ body{
 	background-image: url(../images/1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+	background-position: center;
 }
 .bg-color{
 	background-color: rgba(0, 0, 0, 0.5);
@@ -56,6 +59,13 @@ body{
 	border: 2px solid #da459e;
 	border-radius: 35px;
 	transition: all 0.7s;
+}
+.tittle button:focus{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #da459e;
+	border-radius: 35px;
+	outline: none;
 }
 .icon{
     width: 140px;
@@ -119,6 +129,7 @@ body{
 	background-color: rgba(100, 100, 100, 0.62);
     background-image: url(../images/2.jpg);
     background-size: cover;
+    background-position: center;
 }
 .services{
 	background-repeat: no-repeat;
@@ -195,5 +206,12 @@ body{
 	border: 2px solid #da459e;
 	border-radius: 35px;
 	transition: all 0.7s;
+}
+.services button:focus{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #da459e;
+	border-radius: 35px;
+	outline: none;
 }
 
